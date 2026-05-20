@@ -1,18 +1,19 @@
 header {
-  background-color: #0d3b47;
+  background-color: #114d60;
   color: white;
-  font-size: 25px;
+  font-size: 24px;
   text-align: center;
   padding: 15px;
   border-radius: 8px;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
+  box-sizing: border-box;
 }
 
 header .subtitle {
   font-style: italic;
   font-size: 1.4rem;
-  opacity: 0.55;
+  opacity: 0.7;
   font-family: monospace;
 }
 
@@ -40,22 +41,50 @@ h2 {
 }
 
 li {
-  opacity: 0.55;
+  opacity: 0.70;
 }
 
 #ingrediencie, #postup {
-  background-color: #0d3b47;
+  background-color: #114d60;
   flex: 1;
   border: 3px solid white;
   border-radius: 8px;
   padding: 18px;
   color: white;
   align-self: flex-start;
+  box-sizing: border-box;
 }
 
 footer {
-    background-color: #0d3b47;
-    color: #fff;
+    background-color: #5bcfe0;
+    border: 3px solid #0d3b47;
     padding: 20px;
     border-radius: 8px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+footer p {
+  padding: 0px 150px;
+}
+
+footer a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer .highlight_green{
+  color: #1a7a1a;
+}
+
+footer .highlight_red{
+  color: #b30000;
+}
+
+footer .highlight_blue{
+  color: #00008b;
+}
+
+footer .highlight_white{
+  color: white;
 }
