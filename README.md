@@ -1,4 +1,4 @@
-HTML/CSS projekt
+## HTML/CSS projekt
 
 Projekt zameraný na tvorbu webovej stránky s receptom pomocou sémantického HTML5 a CSS.
 
